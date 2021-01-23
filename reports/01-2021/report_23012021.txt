@@ -1,0 +1,9 @@
+Atualização COVID-19 no Brasil [23/01/2021]
+Casos Acumulados: 8.820.240
+Óbitos Acumulados: 216.559
+
+Qntd. de NOVOS Casos: 57.578
+Qntd. de NOVOS Óbitos: 1.123
+
+Fonte dos dados: http://brasil.io / Secretarias de Saúde
+#ficaemcasa #DataScience #COVID19
