@@ -1,0 +1,9 @@
+Atualização COVID-19 no Brasil [26/01/2021]
+Casos Acumulados: 8.940.554
+Óbitos Acumulados: 219.009
+
+Qntd. de NOVOS Casos: 59.690
+Qntd. de NOVOS Óbitos: 1.136
+
+Fonte dos dados: http://brasil.io / Secretarias de Saúde
+#ficaemcasa #DataScience #COVID19
