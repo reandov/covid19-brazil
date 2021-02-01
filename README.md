@@ -1,5 +1,6 @@
 # COVID-19 in Brazil
 In this repository I'll be studying the COVID-19 data in order to get visualizations and some interpretations. 
+Data from: Brasil.IO
 
 <h1>Accumulated Cases and Deaths</h1>
 <img src="/images/01_national_acc.png" alt="alt text" width="650"/>
