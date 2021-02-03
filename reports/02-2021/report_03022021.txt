@@ -1,0 +1,9 @@
+Atualização COVID-19 no Brasil [03/02/2021]
+Casos Acumulados: 9.345.810
+Óbitos Acumulados: 227.703
+
+Qntd. de NOVOS Casos: 52.521
+Qntd. de NOVOS Óbitos: 1.171
+
+Fonte dos dados: http://brasil.io / Secretarias de Saúde
+#ficaemcasa #DataScience #COVID19
