@@ -341,4 +341,5 @@ date,region,accumulated_num_cases,accumulated_num_deaths,new_num_cases,new_num_d
 2021-01-29,Centro-Oeste,1002123,20006,6012,106
 2021-01-30,Centro-Oeste,1004638,20056,2515,50
 2021-01-31,Centro-Oeste,1006230,20090,1592,34
-2021-02-01,Centro-Oeste,1009700,20138,3470,48
+2021-02-01,Centro-Oeste,1010549,20154,4319,64
+2021-02-02,Centro-Oeste,1014882,20239,4333,85
