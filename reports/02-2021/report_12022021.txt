@@ -1,0 +1,9 @@
+Atualização COVID-19 no Brasil [12/02/2021]
+Casos Acumulados: 9.771.131
+Óbitos Acumulados: 237.723
+
+Qntd. de NOVOS Casos: 47.644
+Qntd. de NOVOS Óbitos: 1.200
+
+Fonte dos dados: http://brasil.io / Secretarias de Saúde
+#ficaemcasa #DataScience #COVID19
