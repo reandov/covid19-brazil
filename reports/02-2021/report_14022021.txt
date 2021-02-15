@@ -1,0 +1,9 @@
+Atualização COVID-19 no Brasil [14/02/2021]
+Casos Acumulados: 9.334.288
+Óbitos Acumulados: 230.411
+
+Qntd. de NOVOS Casos: 21.433
+Qntd. de NOVOS Óbitos: 616
+
+Fonte dos dados: http://brasil.io / Secretarias de Saúde
+#ficaemcasa #DataScience #COVID19
