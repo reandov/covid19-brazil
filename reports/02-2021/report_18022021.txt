@@ -1,0 +1,18 @@
+Atualização COVID-19 no Brasil [18/02/2021]
+Casos Acumulados: 10.034.232
+Óbitos Acumulados: 243.727
+
+Qntd. de NOVOS Casos: 51.612
+Qntd. de NOVOS Óbitos: 1.475
+
+Fonte dos dados: http://brasil.io / Secretarias de Saúde
+#ficaemcasa #DataScience #COVID19
+
+=================================
+
+Visualização por Semanas Epidemiológicas e visualizações Regionais:
+
+=================================
+
+Repositório do GitHub:
+https://github.com/evnrodr/covid19-brazil
