@@ -1,0 +1,18 @@
+Atualização COVID-19 no Brasil [23/02/2021]
+Casos Acumulados: 10.266.573
+Óbitos Acumulados: 248.757
+
+Qntd. de NOVOS Casos: 63.597
+Qntd. de NOVOS Óbitos: 1.394
+
+Fonte dos dados: http://brasil.io / Secretarias de Saúde
+#ficaemcasa #DataScience #COVID19
+
+=================================
+
+Visualização por Semanas Epidemiológicas e visualizações Regionais:
+
+=================================
+
+Repositório do GitHub:
+https://github.com/evnrodr/covid19-brazil
