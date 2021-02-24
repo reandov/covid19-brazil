@@ -1,0 +1,18 @@
+Atualização COVID-19 no Brasil [24/02/2021]
+Casos Acumulados: 10.331.767
+Óbitos Acumulados: 250.190
+
+Qntd. de NOVOS Casos: 65.194
+Qntd. de NOVOS Óbitos: 1.433
+
+Fonte dos dados: http://brasil.io / Secretarias de Saúde
+#ficaemcasa #DataScience #COVID19
+
+=================================
+
+Visualização por Semanas Epidemiológicas e visualizações Regionais:
+
+=================================
+
+Repositório do GitHub:
+https://github.com/evnrodr/covid19-brazil
