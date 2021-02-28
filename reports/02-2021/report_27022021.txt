@@ -1,0 +1,18 @@
+Atualização COVID-19 no Brasil [27/02/2021]
+Casos Acumulados: 10.521.171
+Óbitos Acumulados: 254.360
+
+Qntd. de NOVOS Casos: 61.375
+Qntd. de NOVOS Óbitos: 1.332
+
+Fonte dos dados: http://brasil.io / Secretarias de Saúde
+#ficaemcasa #DataScience #COVID19
+
+=================================
+
+Visualização por Semanas Epidemiológicas e visualizações Regionais:
+
+=================================
+
+Repositório do GitHub:
+https://github.com/evnrodr/covid19-brazil
