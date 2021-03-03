@@ -305,7 +305,7 @@ def plot_national_acc(dataset):
     # Saving the chart
     plt.savefig("images/01_national_acc.png")
     
-    return plt.show()
+    return plt.close()
 
 # National daily
 def plot_national_daily(dataset):
@@ -355,7 +355,7 @@ def plot_national_daily(dataset):
     # Saving the chart
     plt.savefig("images/02_national_new.png")
     
-    return plt.show()
+    return plt.close()
 
 # Epidemiological
 def plot_epidemiological_weeks(dataset):
@@ -371,8 +371,8 @@ def plot_epidemiological_weeks(dataset):
     # Customizing the figure
     fig.subplots_adjust(top=0.92)
     fig.suptitle("Número de Casos e Óbitos de COVID-19 p/ Semana Epidemiológica no Brasil")
-    fig.text(.43, .075, ("Semana atual: " + str(dataset["epidemiological_week"].iat[-1])[-2:] + " de " + today[0:4]), fontsize=14, fontweight="bold")
-    fig.text(.5, .05, "Autor: Evandro Rodrigues | Fonte: Brasil.IO em: %s/%s/%s" % (today[-2:], today[5:7], today[0:4]), ha='center', fontsize="14", fontweight=600)
+    fig.text(0.43, 0.060, ("Semana atual: " + str(dataset["epidemiological_week"].iat[-1])[-2:] + " de " + today[0:4]), fontsize=14, fontweight="bold")
+    fig.text(0.5, 0.035, "Autor: Evandro Rodrigues | Fonte: Brasil.IO em: %s/%s/%s" % (today[-2:], today[5:7], today[0:4]), ha='center', fontsize="14", fontweight=600)
 
     # Adding data to the axis (accumulated cases/deaths)  
     axs[0].bar(range(len(weeks)), n_cases, align='center')
@@ -397,7 +397,7 @@ def plot_epidemiological_weeks(dataset):
     # Saving the chart
     plt.savefig("images/03_epidemiological_weeks.png")
     
-    return plt.show()
+    return plt.close()
 
 # State accumulated
 def plot_state_acc(dataset):
@@ -418,8 +418,8 @@ def plot_state_acc(dataset):
     # Customizing the figure
     fig.subplots_adjust(top=0.92)
     fig.suptitle("Número de Casos e Óbitos acumulados de COVID-19 nos Estados do Brasil até %s/%s/%s" % (today[-2:], today[5:7], today[0:4]))
-    fig.text(.35, .08, ("Estados ainda não atualizados: " + str_upd), fontsize=12)
-    fig.text(.5, .05, "Autor: Evandro Rodrigues | Fonte: Brasil.IO em: %s/%s/%s" % (today[-2:], today[5:7], today[0:4]), ha='center', fontsize="14", fontweight=600)
+    fig.text(0.40, 0.063, ("Estados ainda não atualizados: " + str_upd), fontsize=12)
+    fig.text(0.5, 0.038, "Autor: Evandro Rodrigues | Fonte: Brasil.IO em: %s/%s/%s" % (today[-2:], today[5:7], today[0:4]), ha='center', fontsize="14", fontweight=600)
     
     # Adding data to the axis (accumulated cases/deaths)
     axs[0].bar(dataset["state"], dataset["accumulated_cases"], color="#1F77B4", align='center')
@@ -441,7 +441,7 @@ def plot_state_acc(dataset):
     # Saving the chart
     plt.savefig("images/04_state_acc.png")
     
-    return plt.show()
+    return plt.close()
 
 # State daily
 def plot_state_daily(dataset):
@@ -461,8 +461,8 @@ def plot_state_daily(dataset):
     # Customizing the figure
     fig.subplots_adjust(top=0.92)
     fig.suptitle("Número de Casos e Óbitos de HOJE de COVID-19 nos Estados do Brasil até %s/%s/%s" % (today[-2:], today[5:7], today[0:4]))
-    fig.text(.35, .08, ("Estados ainda não atualizados: " + str_upd), fontsize=12)
-    fig.text(.5, .05, "Autor: Evandro Rodrigues | Fonte: Brasil.IO em: %s/%s/%s" % (today[-2:], today[5:7], today[0:4]), ha='center', fontsize="14", fontweight=600)
+    fig.text(0.40, .063, ("Estados ainda não atualizados: " + str_upd), fontsize=12)
+    fig.text(0.5, 0.038, "Autor: Evandro Rodrigues | Fonte: Brasil.IO em: %s/%s/%s" % (today[-2:], today[5:7], today[0:4]), ha='center', fontsize="14", fontweight=600)
     
     # Adding data to the axis (accumulated cases/deaths)
     axs[0].bar(dataset["state"], dataset["new_cases"], color="#1F77B4", align='center')
@@ -484,7 +484,7 @@ def plot_state_daily(dataset):
     # Saving the chart
     plt.savefig("images/05_state_new.png")
     
-    return plt.show()
+    return plt.close()
 
 # Regional accumulated
 def plot_regional_acc(dataset):
@@ -520,7 +520,7 @@ def plot_regional_acc(dataset):
     # Saving the chart
     plt.savefig("images/06_regional_acc.png")
     
-    return plt.show()
+    return plt.close()
 
 # Regional daily
 def plot_regional_daily(dataset):
@@ -558,7 +558,7 @@ def plot_regional_daily(dataset):
     # Saving the chart
     plt.savefig("images/07_regional_new.png")
     
-    return plt.show()
+    return plt.close()
 
 ## Main
 def main():
