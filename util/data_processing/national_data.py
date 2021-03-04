@@ -1,6 +1,6 @@
 import pandas as pd
 
-from util.extra_functions import save_dataset
+from util.extra_functions.aux_functions import save_dataset
 
 ## Function used to get/process information about the whole country (Brazil)
 def process_national_data(dataset, date_list, last_available_date):

@@ -1,6 +1,6 @@
 import pandas as pd
 
-from util.extra_functions import save_dataset
+from util.extra_functions.aux_functions import save_dataset
 
 ## Function used to get/process information about the regions in Brazil
 def process_regional_data(dataset, region_list, date_list, last_available_date):

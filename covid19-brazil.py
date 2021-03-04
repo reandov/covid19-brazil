@@ -3,10 +3,14 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import time
 
-from util.data_preprocessing import download_dataset, data_cleaning
-from util.data_processing import process_national_data, process_regional_data
-from util.data_visualization import plot_national_acc, plot_national_daily, plot_state_acc, plot_state_daily, plot_regional_acc, plot_regional_daily, plot_epidemiological_weeks
-from util.extra_functions import generate_report
+from util.data_preprocessing.get_data import download_dataset, data_cleaning
+from util.data_processing.national_data import process_national_data
+from util.data_processing.regional_data import process_regional_data
+from util.data_visualization.national_plots import plot_national_acc, plot_national_daily
+from util.data_visualization.state_plots import plot_state_acc, plot_state_daily
+from util.data_visualization.regional_plots import plot_regional_acc, plot_regional_daily
+from util.data_visualization.extra_plots import plot_epidemiological_weeks
+from util.extra_functions.aux_functions import generate_report
 
 # Creating a dictionary of regions and states
 region_list = ["Norte", "Nordeste", "Centro-Oeste", "Sudeste", "Sul"]
@@ -33,7 +37,7 @@ def main():
     print("  - Download completed.\n")
     print("> Initiating dataset cleaning.")
     
-    covid_dataset, last_available_date = data_cleaning(covid_dataset)
+    covid_dataset, last_available_date = data_cleaning(covid_dataset, regions)
     
     # Creating a list from the first case until today
     date_list = pd.date_range(start = "2020-02-25", end = last_available_date)
@@ -56,8 +60,8 @@ def main():
     plot_epidemiological_weeks(national_data, last_available_date)
     plot_state_acc(covid_dataset, last_available_date)
     plot_state_daily(covid_dataset, last_available_date)
-    plot_regional_acc(regional_data, last_available_date)
-    plot_regional_daily(regional_data, last_available_date)
+    plot_regional_acc(regional_data, region_list, last_available_date)
+    plot_regional_daily(regional_data, region_list, last_available_date)
     
     print("  - Plots generated.\n")
     print("> Returning dataframes.")

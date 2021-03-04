@@ -4,7 +4,7 @@ import gzip
 import io
 from urllib.request import Request, urlopen
 
-from util.extra_functions import save_dataset, get_region
+from util.extra_functions.aux_functions import save_dataset, get_region
 
 ## Function to download and save the dataset
 def download_dataset():
@@ -23,7 +23,7 @@ def download_dataset():
     return pd.read_csv("data/covid19-dataset-brasil-io.csv")
 
 ## Dataset cleaning
-def data_cleaning(dataset):
+def data_cleaning(dataset, regions):
     
     # List of columns that will be droped
     columns_to_drop = ["city", "city_ibge_code", "estimated_population_2019", "is_repeated", "last_available_confirmed_per_100k_inhabitants", "last_available_death_rate", "order_for_place", "place_type"]
@@ -34,7 +34,7 @@ def data_cleaning(dataset):
                 .reset_index(drop=True))
     
     # Adding the "Region" column (refer to the getRegion utility function)
-    dataset['region'] = list(map(get_region, dataset.state.tolist()))
+    dataset['region'] = [get_region(state, regions) for state in dataset.state.tolist()]
     
     # Reordering and renaming columns
     dataset = (dataset[['date', 'last_available_date', "is_last", 'region', 'state', 'epidemiological_week', 'last_available_confirmed', 'last_available_deaths', 'new_confirmed', 'new_deaths']]
