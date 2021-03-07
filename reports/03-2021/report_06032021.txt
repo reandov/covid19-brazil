@@ -1,0 +1,19 @@
+Atualização COVID-19 no Brasil [06/03/2021]
+
+| Casos Acumulados: 10.945.156
+| Óbitos Acumulados: 264.561
+
+| Qntd. de NOVOS Casos: 70.099
+| Qntd. de NOVOS Óbitos: 1.553
+
+Fonte dos dados: http://brasil.io / Secretarias de Saúde
+#ficaemcasa #DataScience #COVID19
+
+=================================
+
+Visualização por Semanas Epidemiológicas e visualizações Regionais:
+
+=================================
+
+Repositório do GitHub:
+https://github.com/evnrodr/covid19-brazil
