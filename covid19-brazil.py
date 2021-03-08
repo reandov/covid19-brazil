@@ -31,7 +31,7 @@ def main():
         
     print("=== COVID 19 - BRAZIL ===\n")
     print("> Downloading the dataset (caso_full.csv) from | data.brasil.io/dataset/covid19/ |")
-    
+
     covid_dataset = download_dataset()
     
     print("  - Download completed.\n")
