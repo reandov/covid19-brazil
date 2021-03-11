@@ -1,0 +1,19 @@
+Atualização COVID-19 no Brasil [11/03/2021]
+
+| Casos Acumulados: 11.290.799
+| Óbitos Acumulados: 273.251
+
+| Qntd. de NOVOS Casos: 77.853
+| Qntd. de NOVOS Óbitos: 2.184
+
+Fonte dos dados: http://brasil.io / Secretarias de Saúde
+#ficaemcasa #DataScience #COVID19
+
+=================================
+
+Visualização por Semanas Epidemiológicas e visualizações Regionais:
+
+=================================
+
+Repositório do GitHub:
+https://github.com/evnrodr/covid19-brazil
