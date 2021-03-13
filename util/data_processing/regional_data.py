@@ -52,7 +52,7 @@ def process_regional_data(dataset, region_list, date_list, last_available_date):
         
     # Batch dataset saving
     for index, region in enumerate(region_list):
-        save_dataset(dataframe_list[index], (f"data/covid19-{region}.csv"))
+        save_dataset(dataframe_list[index], (f"data/regions/covid19-{region}.csv"))
     
     # Returning a list of 5 DataFrames
     dataframe_list = pd.concat([dataframe_list[0], dataframe_list[1], dataframe_list[2], dataframe_list[3], dataframe_list[4]])

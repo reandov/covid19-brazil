@@ -32,7 +32,7 @@ def plot_regional_acc(dataset, region_list, last_available_date):
         ax.legend(prop=dict(weight='bold'))
     
     # Saving the chart
-    plt.savefig("images/06_regional_acc.png")
+    plt.savefig("images/regions/01_regional_acc.png")
     
     return plt.close()
 
@@ -70,6 +70,6 @@ def plot_regional_daily(dataset, region_list, last_available_date):
         ax.legend(prop=dict(weight='bold'))
     
     # Saving the chart
-    plt.savefig("images/07_regional_new.png")
+    plt.savefig("images/regions/02_regional_new.png")
     
     return plt.close()

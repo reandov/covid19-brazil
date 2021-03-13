@@ -46,7 +46,7 @@ def plot_national_acc(dataset, last_available_date):
                     arrowprops=dict(color='black', arrowstyle='wedge'), fontsize=12)
         
     # Saving the chart
-    plt.savefig("images/01_national_acc.png")
+    plt.savefig("images/national/01_national_acc.png")
     
     return plt.close()
 
@@ -96,6 +96,6 @@ def plot_national_daily(dataset, last_available_date):
                     arrowprops=dict(color='black', arrowstyle='wedge'), fontsize=12)
     
     # Saving the chart
-    plt.savefig("images/02_national_new.png")
+    plt.savefig("images/national/02_national_new.png")
     
     return plt.close()

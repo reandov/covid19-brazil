@@ -1,5 +1,6 @@
 import pandas as pd
 
+#import extra_functions
 from util.extra_functions.aux_functions import save_dataset
 
 ## Function used to get/process information about the whole country (Brazil)
@@ -52,7 +53,8 @@ def process_national_data(dataset, date_list, last_available_date):
                                       })
     
     # Saving the dataset
-    save_dataset(national_dataframe, "data/covid19-dataset-brasil-io.csv")
+    
+    save_dataset(national_dataframe, "data/national/covid19-dataset-brasil.csv")
     
     # Returning generated DataFrame
     return national_dataframe

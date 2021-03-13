@@ -38,6 +38,6 @@ def plot_epidemiological_weeks(dataset, last_available_date):
     axs[1].tick_params(axis='x', which='both', length=5, width=1.5, color='lightgray')
 
     # Saving the chart
-    plt.savefig("images/03_epidemiological_weeks.png")
+    plt.savefig("images/extras/01_epidemiological_weeks.png")
     
     return plt.close()

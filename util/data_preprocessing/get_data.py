@@ -17,10 +17,10 @@ def download_dataset():
     dataset = pd.DataFrame.from_dict(csv.DictReader(io.StringIO(gzip.decompress(response.read()).decode("utf-8"))))
     
     # Saves the dataset
-    save_dataset(dataset, "data/covid19-dataset-brasil-io.csv")
+    save_dataset(dataset, "data/processed/covid19-dataset-brasilio-original.csv")
     
     # Returns the reading of the saved dataset (This process it's necessary in order to avoid type errors and possible errors during data reading)
-    return pd.read_csv("data/covid19-dataset-brasil-io.csv")
+    return pd.read_csv("data/processed/covid19-dataset-brasilio-original.csv")
 
 ## Dataset cleaning
 def data_cleaning(dataset, regions):
@@ -45,6 +45,6 @@ def data_cleaning(dataset, regions):
                                 }))
     
     # Saving the updated dataset
-    save_dataset(dataset, "data/covid19-dataset-brasil-io_cleaned.csv")
+    save_dataset(dataset, "data/processed/covid19-dataset-brasilio_cleaned.csv")
     
     return dataset, dataset.last_available_date.max()

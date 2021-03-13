@@ -24,7 +24,7 @@ regions = {
 }
 
 ## Defining the style for plottings
-plt.style.use(["seaborn-whitegrid", "./styles/custom_style.mplstyle"])
+plt.style.use(["seaborn-whitegrid", "./util/styles/custom_style.mplstyle"])
 
 ## Main
 def main():
@@ -85,4 +85,4 @@ start_time = time.time()
 covid_dataset, national_data, regional_data = main()
 
 # Ending and printing the runtime
-print("This script runtime was: %s seconds ---" % (time.time() - start_time))
+print("This script runtime was: %s seconds." % round((time.time() - start_time), 2))

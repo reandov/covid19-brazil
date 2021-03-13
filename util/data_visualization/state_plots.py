@@ -40,7 +40,7 @@ def plot_state_acc(dataset, last_available_date):
         ax.yaxis.get_major_formatter().set_scientific(False)
     
     # Saving the chart
-    plt.savefig("images/04_state_acc.png")
+    plt.savefig("images/states/01_state_acc.png")
     
     return plt.close()
 
@@ -83,6 +83,6 @@ def plot_state_daily(dataset, last_available_date):
         ax.yaxis.get_major_formatter().set_scientific(False)
     
     # Saving the chart
-    plt.savefig("images/05_state_new.png")
+    plt.savefig("images/states/02_state_new.png")
     
     return plt.close()
