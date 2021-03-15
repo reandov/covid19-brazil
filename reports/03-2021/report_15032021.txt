@@ -1,0 +1,19 @@
+Atualização COVID-19 no Brasil [15/03/2021]
+
+| Casos Acumulados: 11.531.800
+| Óbitos Acumulados: 279.691
+
+| Qntd. de NOVOS Casos: 42.838
+| Qntd. de NOVOS Óbitos: 1.257
+
+Fonte dos dados: http://brasil.io / Secretarias de Saúde
+#ficaemcasa #DataScience #COVID19
+
+=================================
+
+Visualização por Semanas Epidemiológicas e visualizações Regionais:
+
+=================================
+
+Repositório do GitHub:
+https://github.com/evnrodr/covid19-brazil
