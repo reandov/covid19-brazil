@@ -2,10 +2,9 @@ import matplotlib.pyplot as plt
 
 # Regional accumulated
 def plot_regional_acc(dataset, region_list, last_available_date):
-    
     # Creating the figure
     fig, axs = plt.subplots(2, 1, figsize=(12, 14), dpi=100)
-
+    
     # Customizing the figure
     fig.subplots_adjust(top=0.92)
     fig.autofmt_xdate(rotation=0, ha='center')
@@ -64,7 +63,7 @@ def plot_regional_daily(dataset, region_list, last_available_date):
     # Customizing axis
     axs[0].set_title("Número de casos confirmados (diário)")  
     axs[1].set_title("Número de óbitos confirmados (diário)")
- 
+     
     # For each axis apply ->
     for ax in axs:
         ax.legend(prop=dict(weight='bold'))

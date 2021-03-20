@@ -6,6 +6,7 @@ import time
 from util.data_preprocessing.get_data import download_dataset, data_cleaning
 from util.data_processing.national_data import process_national_data
 from util.data_processing.regional_data import process_regional_data
+from util.data_processing.state_data import process_state_split_data
 from util.data_visualization.national_plots import plot_national_acc, plot_national_daily
 from util.data_visualization.state_plots import plot_state_acc, plot_state_daily
 from util.data_visualization.regional_plots import plot_regional_acc, plot_regional_daily
@@ -22,6 +23,8 @@ regions = {
     "Sudeste" : ["SP", "ES", "RJ", "MG"],
     "Sul" : ["SC", "RS", "PR"],
 }
+
+state_list = ['AC', 'AP', 'AM', 'TO', 'PA', 'RR', 'RO', 'AL', 'BA', 'PB', 'PE', 'SE', 'PI', 'CE', 'MA', 'RN', 'MT', 'GO', 'MS', 'DF', 'SP', 'ES', 'RJ', 'MG',  'SC', 'RS', 'PR']
 
 ## Defining the style for plottings
 plt.style.use(["seaborn-whitegrid", "./util/styles/custom_style.mplstyle"])
@@ -53,6 +56,11 @@ def main():
     regional_data = process_regional_data(covid_dataset, region_list, date_list, last_available_date)
     
     print("  - Regional data acquired.\n")
+    print("> Processing state data.")
+    
+    process_state_split_data(state_list, covid_dataset, date_list, last_available_date)
+    
+    print("  - State data acquired.\n")
     print("> Generating plots.")
     
     plot_national_acc(national_data, last_available_date)
@@ -64,6 +72,7 @@ def main():
     plot_regional_daily(regional_data, region_list, last_available_date)
     
     print("  - Plots generated.\n")
+    
     print("> Returning dataframes.")
     print("  - DataFrames returned.\n")
     
