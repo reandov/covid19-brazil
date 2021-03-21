@@ -10,7 +10,7 @@ def generate_report(dataset, last_available_date):
     
     file.write(("| Casos Acumulados: {0:,}\n").format(dataset["accumulated_num_cases"].iat[-1]).replace(',','.'))
     file.write(("| Óbitos Acumulados: {0:,}\n\n").format(dataset["accumulated_num_deaths"].iat[-1]).replace(',','.'))
-   
+    
     file.write(("| Qntd. de NOVOS Casos: {0:,}\n").format(dataset["new_num_cases"].iat[-1]).replace(',','.'))
     file.write(("| Qntd. de NOVOS Óbitos: {0:,}\n\n").format(dataset["new_num_deaths"].iat[-1]).replace(',','.'))
     

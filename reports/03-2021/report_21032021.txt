@@ -1,0 +1,19 @@
+Atualização COVID-19 no Brasil [21/03/2021]
+
+| Casos Acumulados: 12.002.173
+| Óbitos Acumulados: 294.203
+
+| Qntd. de NOVOS Casos: 46.178
+| Qntd. de NOVOS Óbitos: 1.253
+
+Fonte dos dados: http://brasil.io / Secretarias de Saúde
+#ficaemcasa #DataScience #COVID19
+
+=================================
+
+Visualização por Semanas Epidemiológicas e visualizações Regionais:
+
+=================================
+
+Repositório do GitHub:
+https://github.com/evnrodr/covid19-brazil
