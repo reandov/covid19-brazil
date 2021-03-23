@@ -1,4 +1,5 @@
 env/
 alt/
 .ipynb_checkpoints/
+tests/
 data/processed/covid19-dataset-brasilio-original.csv
