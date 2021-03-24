@@ -3,9 +3,6 @@ import matplotlib.pyplot as plt
 # State accumulated
 def plot_state_acc(dataset, last_available_date):
     
-    # Specifying the dataset for today
-    dataset = dataset[dataset["date"] == last_available_date]
-    
     # Generating an annotation
     not_updated = dataset[dataset["last_available_date"] != last_available_date].state.tolist()
     str_upd = ""
@@ -46,9 +43,6 @@ def plot_state_acc(dataset, last_available_date):
 
 # State accumulated
 def plot_state_acc_per_hundthousands(dataset, last_available_date):
-    
-    # Specifying the dataset for today
-    dataset = dataset[dataset["date"] == last_available_date]
     
     # Generating an annotation
     not_updated = dataset[dataset["last_available_date"] != last_available_date].state.tolist()
