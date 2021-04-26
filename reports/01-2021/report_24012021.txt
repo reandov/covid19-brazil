@@ -1,9 +1,0 @@
-Atualização COVID-19 no Brasil [24/01/2021]
-Casos Acumulados: 8.848.694
-Óbitos Acumulados: 217.164
-
-Qntd. de NOVOS Casos: 26.879
-Qntd. de NOVOS Óbitos: 577
-
-Fonte dos dados: http://brasil.io / Secretarias de Saúde
-#ficaemcasa #DataScience #COVID19

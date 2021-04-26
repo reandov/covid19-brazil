@@ -1,9 +1,0 @@
-Atualização COVID-19 no Brasil [18/01/2021]
-Casos Acumulados: 8.517.114
-Óbitos Acumulados: 210.417
-
-Qntd. de NOVOS Casos: 24.711
-Qntd. de NOVOS Óbitos: 424
-
-Fonte dos dados: http://brasil.io / Secretarias de Saúde
-#ficaemcasa #DataScience #COVID19

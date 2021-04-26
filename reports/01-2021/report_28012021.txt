@@ -1,9 +1,0 @@
-Atualização COVID-19 no Brasil [28/01/2021]
-Casos Acumulados: 9.065.829
-Óbitos Acumulados: 221.768
-
-Qntd. de NOVOS Casos: 58.585
-Qntd. de NOVOS Óbitos: 1.405
-
-Fonte dos dados: http://brasil.io / Secretarias de Saúde
-#ficaemcasa #DataScience #COVID19
